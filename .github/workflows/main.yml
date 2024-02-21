@@ -25,4 +25,4 @@ jobs:
       run: mvn test  
     
     - name: Build Docker image
-      run: docker build -t your-image-name .
+      run: docker build -t file-stroage-service .
